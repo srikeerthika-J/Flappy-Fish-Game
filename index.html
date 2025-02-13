@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flappy Fish</title>
+        <link rel="stylesheet" href="flappyfish.css">
+        <script src="flappyfish.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- Google Font link -->
+    </head>
+    
+<body>
+    
+    <div class="homePage" id="homePage">
+        <!-- Fish Swimming GIF -->
+        <img id="fishGif" src="assets/fish1.gif" alt="Fish Swimming">
+        <h1>FLAPPY FISH</h1>
+        <button id="startBtn">START GAME</button>
+        
+    </div>
+    
+    <!-- Pause Page -->
+    <div class="pausePage" id="pausePage" style="display:none;">
+        <h1>Game Paused</h1>
+        <button id="resumeBtn">Resume</button>
+        <button id="quitPauseBtn">Quit Game</button>
+    </div>
+
+    <!-- Game Over Page -->
+    <div id="gameOverPage" style="display: none;">
+        <h1>FLAPPY FISH</h1>
+        <p id="finalScore">Final Score: 0</p>
+        <p id="finalCoins">Coins Collected: 0</p>
+        <p id="highScore">High Score: 0</p>
+        <button id="startNewGameBtn">Start New Game</button>
+        <button id="quitBtn">Quit Game</button>
+    </div>
+
+    <img id="fishGif" src="assets/fish.gif" style="display:none;">
+
+    
+
+    <canvas id="board" style="display:none;"></canvas>
+</body>
+</html>
