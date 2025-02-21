@@ -229,7 +229,7 @@ h1 {
 /* High Score Container */
 #highScore {
     font-family: 'Luckiest Guy', cursive; /* Fun font for high score */
-    font-size: 40px; /* Slightly smaller than the final score */
+    font-size: 30px; /* Slightly smaller than the final score */
     color: #0e3b47; /* Red color for high score */
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4), 0 0 10px #0e3b477c, 0 0 20px #0e3b475a; /* Glowing effect */
     margin-top: 20px;
